@@ -14,7 +14,7 @@ Graph = namedtuple('Graph', ['locations', 'edges', 'edge_labels'])
 Trip = namedtuple('Trip', ['startLoc', 'edges', 'location_visits', 'edge_visits'])
 
 
-print(os.environ.get('OPENAI_API_KEY'))
+print(os.environ.get('OPEN_AI_KEY'))
 
 # Define decision tree classes
 class DTree:
@@ -129,6 +129,7 @@ def RoundTripRoadTrip(startLoc, LocFile, EdgeFile, AttractionFile, themes_list, 
                     if again: 
                         # If the user wants to continue, sort the queue by preference and keep the top 80%
                         q = sorted(q, key = lambda x: trip_totpref(x, g), reverse = True)[:int(len(q)/1.2)]
+                        
                         continue 
                     else: 
                         max_pref = max(trip_totpref(rt, g) for rt in ans)
@@ -153,7 +154,9 @@ def RoundTripRoadTrip(startLoc, LocFile, EdgeFile, AttractionFile, themes_list, 
                     key = lambda x: get_direct_dist(g, curr_rt.startLoc, x.edges[-1].location2.label), reverse= True
                 )
                 q.extend(nxt_trips)
-    return
+            
+
+    return curr_rt
 
 
 
@@ -315,6 +318,7 @@ def print_results(max_pref, min_pref, avg_pref, avg_time, count, results_file, c
         print(f"Maximum TotalTripPreference: {max_pref}")
         print(f"Average TotalTripPreference: {avg_pref}")
         print(f"Minimum TotalTripPreference: {min_pref}")
+        print(f"{get_story(curr_rt)}")
 
     # Reset standard output to the console
     sys.stdout = sys.__stdout__
@@ -363,7 +367,7 @@ def get_story(trip):
             story += ", ".join(edge.themes)
 
     client = OpenAI(
-        api_key = "YOUR API KEY GOES HERE"
+        api_key = "OPENAIKEY"
     )
 
     try:
@@ -387,4 +391,6 @@ def get_story(trip):
 if __name__ == '__main__':
     starting_location, required_locations, forbidden_locations, max_time = user_requirements()
     themes_list = ['Environment','Parks','Hiking']
-    RoundTripRoadTrip(starting_location, 'Locations.csv', 'Edges.csv','Attractions.csv',themes_list, DTree2 , max_time, 80, "results.txt", required_locations, forbidden_locations, True)
+    trip = RoundTripRoadTrip(starting_location, 'Locations.csv', 'Edges.csv','Attractions.csv',themes_list, DTree2 , max_time, 80, "results.txt", required_locations, forbidden_locations, True)
+    # print(trip)
+    # get_story(trip.edges) # This is a placeholder for the story generation function

@@ -1,34 +1,62 @@
-Solution 0 | start_location: NashvilleTN | max_time: 50.0 | speed: 80
-1. NashvilleTN to GlasgowKY | label: Glasgow_tofrom_Nashville_on_I-65S | edge_pref: 0.0017, edge_time: 0.00 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-2. GlasgowKY to SomersetKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0346, edge_time: 0.09 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-3. SomersetKY to GlasgowKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0128, edge_time: 0.03 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-4. GlasgowKY to SomersetKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0346, edge_time: 0.09 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-5. SomersetKY to GlasgowKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0128, edge_time: 0.03 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-6. GlasgowKY to SomersetKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0346, edge_time: 0.09 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-7. SomersetKY to GlasgowKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0128, edge_time: 0.03 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-8. GlasgowKY to SomersetKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0346, edge_time: 0.09 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-9. SomersetKY to GlasgowKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0128, edge_time: 0.03 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-10. GlasgowKY to SomersetKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0346, edge_time: 0.09 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-11. SomersetKY to GlasgowKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0128, edge_time: 0.03 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-12. GlasgowKY to SomersetKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0346, edge_time: 0.09 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-13. SomersetKY to GlasgowKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0128, edge_time: 0.03 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-14. GlasgowKY to SomersetKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0346, edge_time: 0.09 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-15. SomersetKY to GlasgowKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0128, edge_time: 0.03 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-16. GlasgowKY to SomersetKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0346, edge_time: 0.09 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-17. SomersetKY to GlasgowKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0128, edge_time: 0.03 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-18. GlasgowKY to SomersetKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0346, edge_time: 0.09 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-19. SomersetKY to GlasgowKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0128, edge_time: 0.03 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-20. GlasgowKY to SomersetKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0346, edge_time: 0.09 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-21. SomersetKY to GlasgowKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0128, edge_time: 0.03 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-22. GlasgowKY to SomersetKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0346, edge_time: 0.09 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-23. SomersetKY to GlasgowKY | label: Somerset_tofrom_Glasgow_on_Cumberland Pkwy | edge_pref: 0.0128, edge_time: 0.03 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-24. GlasgowKY to NashvilleTN | label: Glasgow_tofrom_Nashville_on_I-65S | edge_pref: 0.0093, edge_time: 0.02 hours, inter_loc_pref: 0.0100, inter_loc_time: 0.03 hours
-start_from: NashvilleTN | total_trip_preference: 0.1052 | total_distance: 1914 miles | total_trip_time: 25.26 hours
+Solution 0 | start_location: NashvilleTN | max_time: 30.0 | speed: 80
+1. NashvilleTN to JacksonTN | label: Nashville_tofrom_Jackson_on_I40 | edge_pref: 0.0019, edge_time: 0.00 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+2. JacksonTN to NashvilleTN | label: Nashville_tofrom_Jackson_on_I40 | edge_pref: 0.0953, edge_time: 0.24 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+3. NashvilleTN to BowlingGreenKY | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0398, edge_time: 0.10 hours, inter_loc_pref: 1.0000, inter_loc_time: 2.50 hours
+4. BowlingGreenKY to NashvilleTN | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0847, edge_time: 0.21 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+5. NashvilleTN to BowlingGreenKY | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0398, edge_time: 0.10 hours, inter_loc_pref: 1.0000, inter_loc_time: 2.50 hours
+6. BowlingGreenKY to NashvilleTN | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0847, edge_time: 0.21 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+7. NashvilleTN to BowlingGreenKY | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0398, edge_time: 0.10 hours, inter_loc_pref: 1.0000, inter_loc_time: 2.50 hours
+8. BowlingGreenKY to NashvilleTN | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0847, edge_time: 0.21 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+9. NashvilleTN to BowlingGreenKY | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0398, edge_time: 0.10 hours, inter_loc_pref: 1.0000, inter_loc_time: 2.50 hours
+10. BowlingGreenKY to NashvilleTN | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0847, edge_time: 0.21 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+11. NashvilleTN to BowlingGreenKY | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0398, edge_time: 0.10 hours, inter_loc_pref: 1.0000, inter_loc_time: 2.50 hours
+12. BowlingGreenKY to NashvilleTN | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0847, edge_time: 0.21 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+13. NashvilleTN to BowlingGreenKY | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0398, edge_time: 0.10 hours, inter_loc_pref: 1.0000, inter_loc_time: 2.50 hours
+14. BowlingGreenKY to NashvilleTN | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0847, edge_time: 0.21 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+15. NashvilleTN to BowlingGreenKY | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0398, edge_time: 0.10 hours, inter_loc_pref: 1.0000, inter_loc_time: 2.50 hours
+16. BowlingGreenKY to NashvilleTN | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0847, edge_time: 0.21 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+17. NashvilleTN to BowlingGreenKY | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0398, edge_time: 0.10 hours, inter_loc_pref: 1.0000, inter_loc_time: 2.50 hours
+18. BowlingGreenKY to NashvilleTN | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0847, edge_time: 0.21 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+19. NashvilleTN to BowlingGreenKY | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0398, edge_time: 0.10 hours, inter_loc_pref: 1.0000, inter_loc_time: 2.50 hours
+20. BowlingGreenKY to NashvilleTN | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0847, edge_time: 0.21 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+21. NashvilleTN to BowlingGreenKY | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0398, edge_time: 0.10 hours, inter_loc_pref: 1.0000, inter_loc_time: 2.50 hours
+22. BowlingGreenKY to NashvilleTN | label: Nashville_tofrom_BowlingGreen_on_I65 | edge_pref: 0.0847, edge_time: 0.21 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+23. NashvilleTN to JacksonTN | label: Nashville_tofrom_Jackson_on_I40 | edge_pref: 0.0019, edge_time: 0.00 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+24. JacksonTN to MemphisTN | label: Jackson_tofrom_Memphis_on_I40 | edge_pref: 0.0617, edge_time: 0.15 hours, inter_loc_pref: 0.1700, inter_loc_time: 0.43 hours
+25. MemphisTN to JacksonTN | label: Jackson_tofrom_Memphis_on_I40 | edge_pref: 0.0275, edge_time: 0.07 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+26. JacksonTN to NashvilleTN | label: Nashville_tofrom_Jackson_on_I40 | edge_pref: 0.0953, edge_time: 0.24 hours, inter_loc_pref: 0.5700, inter_loc_time: 1.42 hours
+start_from: NashvilleTN | total_trip_preference: 3.2006 | total_distance: 2012 miles | total_trip_time: 28.97 hours
 
 
 Summary:
 Total Solutions: 1
-Average Instrumented Runtime: 0.003941059112548828 seconds
-Maximum TotalTripPreference: 0.10518200879039305
-Average TotalTripPreference: 0.10518200879039305
-Minimum TotalTripPreference: 0.10518200879039305
+Average Instrumented Runtime: 0.05777597427368164 seconds
+Maximum TotalTripPreference: 3.2005985175624243
+Average TotalTripPreference: 3.2005985175624243
+Minimum TotalTripPreference: 3.2005985175624243
+Welcome to an incredibly thrilling and unforgettable road trip adventure across the scenic landscapes of Tennessee and Kentucky! Buckle up and get ready to 
+embark on a journey filled with vibrant cities, charming towns, and hidden gems waiting to be explored.
+
+Our first leg of the trip takes us from the lively music city of Nashville, TN to the historic city of Jackson, TN. As we cruise down the open highway, 
+you'll witness the rolling hills and lush greenery that define the southern countryside. In Jackson, immerse yourself in the rich culture and heritage of this charming 
+city, with its quaint downtown area and friendly locals.
+
+Heading back towards Nashville, our next leg of the journey is a quick drive that allows you to soak in the beautiful scenery once more. 
+Nashville beckons with its world-famous music scene, delicious Southern cuisine, and vibrant nightlife. Don't miss the opportunity to visit iconic 
+landmarks like the Grand Ole Opry and the Country Music Hall of Fame.
+
+Leaving Nashville behind, we venture into the Bluegrass State of Kentucky, making our way to Bowling Green. This leg of the trip is a scenic drive through 
+rolling farmlands and picturesque countryside. Bowling Green welcomes you with its welcoming small-town charm, historic sites, and delicious food scene.
+
+As we make our way back to Nashville, take the time to explore the hidden gems of Bowling Green, such as the awe-inspiring Lost River Cave and the fascinating 
+National Corvette Museum. The journey back is just as scenic, with panoramic views of the Kentucky landscape.
+
+Our next few legs take us back and forth between Nashville and Bowling Green, allowing you to fully immerse yourself in the unique culture and beauty of both 
+destinations. Each trip offers new discoveries, from charming local eateries and boutique shops to captivating museums and historical sites.
+
+Our adventure comes to a close with our final legs taking us back to Nashville, with a quick stop in Jackson, TN, and a detour to the vibrant city of Memphis. 
+Explore the rich musical heritage of Memphis, visit Graceland, the home of Elvis Presley, and savor some authentic barbecue before heading back to Nashville 
+for the grand finale of our epic road trip.
+
+So, pack your bags, grab your favorite road trip snacks, and get ready to experience the best of Tennessee and Kentucky on this unforgettable journey filled with adventures, 
+memories, and endless possibilities. Let the road trip begin!
